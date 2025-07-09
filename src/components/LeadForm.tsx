@@ -93,7 +93,7 @@ export default function LeadForm({ onSubmit, showSuccess }: LeadFormProps) {
 
         {showSuccess && (
           <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-6 text-center">
-            Thank you! We've received your information and will contact you within 24 hours.
+            Thank you! We&apos;ve received your information and will contact you within 24 hours.
           </div>
         )}
 
