@@ -11,9 +11,9 @@ export default function WhyClarenceSection() {
       icon: '⚡'
     },
     {
-      title: 'Ongoing Support',
-      description: 'Full transition support to ensure seamless handover and continuity',
-      icon: '🤝'
+      title: 'AI-Powered Growth',
+      description: 'Post-acquisition AI software implementation to boost sales performance',
+      icon: '🚀'
     },
     {
       title: 'Proven Track Record',
@@ -57,7 +57,7 @@ export default function WhyClarenceSection() {
 
         <div className="bg-gray-50 p-8 rounded-lg max-w-4xl mx-auto">
           <blockquote className="text-xl text-gray-700 text-center italic mb-4">
-            &ldquo;Clarence AI made the acquisition process incredibly smooth. From the initial valuation to the final handover, everything was transparent and professional. I couldn&apos;t be happier with the outcome.&rdquo;
+            &ldquo;Clarence AI made the acquisition process incredibly smooth. From the initial valuation to the final handover, everything was transparent and professional. The AI-powered software they implemented has already increased our sales by 30%. I couldn&apos;t be happier with the outcome.&rdquo;
           </blockquote>
           <div className="text-center">
             <cite className="text-gray-600 not-italic">– Sarah Mitchell, Former Agency Owner</cite>

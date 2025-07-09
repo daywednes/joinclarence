@@ -12,8 +12,8 @@ export default function BenefitsSection() {
     },
     {
       icon: '🤖',
-      title: 'AI-Powered Valuations',
-      description: 'Accurate, data-driven valuations using advanced AI'
+      title: 'AI-Powered Sales Growth',
+      description: 'Post-acquisition AI software to boost sales performance'
     }
   ]
 

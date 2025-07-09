@@ -8,9 +8,9 @@ export default function HowItWorksSection() {
     },
     {
       number: 2,
-      title: 'AI-Powered Valuation',
-      description: 'Our advanced AI analyzes your agency data to provide an accurate valuation',
-      icon: '🤖'
+      title: 'Professional Valuation',
+      description: 'Our team conducts thorough analysis to provide an accurate, fair valuation',
+      icon: '📊'
     },
     {
       number: 3,
@@ -20,8 +20,8 @@ export default function HowItWorksSection() {
     },
     {
       number: 4,
-      title: 'Close & Transition',
-      description: 'Complete the acquisition with full transition support for seamless handover',
+      title: 'Close & AI Integration',
+      description: 'Complete the acquisition and implement AI-powered software to enhance sales performance',
       icon: '🤝'
     }
   ]

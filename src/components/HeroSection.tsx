@@ -10,7 +10,7 @@ export default function HeroSection() {
           We acquire top-performing insurance agencies
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-          Fast, simple, and fair valuations powered by AI. Get your offer in 7 days with no broker fees and seamless transition support.
+          Fast, simple, and fair valuations. Get your offer in 7 days with no broker fees and seamless transition support. Post-acquisition, we use AI-powered insurance software to boost your sales performance.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button

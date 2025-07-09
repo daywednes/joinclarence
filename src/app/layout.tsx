@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Join Clarence AI - Insurance Agency Acquisition',
-  description: 'Fast, simple, and fair valuations powered by AI. Get your offer in 7 days with no broker fees and seamless transition support.',
+  description: 'Fast, simple, and fair valuations. Get your offer in 7 days with no broker fees and seamless transition support. Post-acquisition AI software boosts sales performance.',
 }
 
 export default function RootLayout({
