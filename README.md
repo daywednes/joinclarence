@@ -1,86 +1,95 @@
-# JoinClarence.com - Insurance Agency Acquisition Landing Page
+# Clarence - AI Insurance Broker Landing Page
 
-This is a Next.js landing page designed to acquire insurance agencies by offering fast, AI-powered valuations and seamless transitions.
+A modern, beautiful landing page for Clarence, your private personal AI insurance broker.
 
 ## Features
 
-- **Hero Section** with compelling headline and call-to-action buttons
-- **Benefits Snapshot** highlighting key advantages (7-Day Close, No Broker Fees, AI-Powered Valuations)
-- **How It Works** section with 4-step process
-- **Why Clarence AI** section with statistics and testimonials
-- **Lead Capture Form** with Google Sheets integration
-- **About Section** with company background
-- Mobile-responsive design optimized for performance
+- 🎨 Modern, clean design with Tailwind CSS
+- ⚡ Built with Next.js 14+ (App Router)
+- 📱 Fully responsive
+- 🔍 Interactive search box with suggestions
+- 💬 Chat interface demonstration
+- 🔒 Privacy-focused messaging
+- ✨ Smooth animations and transitions
 
 ## Getting Started
 
-1. Install dependencies:
+### Install Dependencies
+
 ```bash
 npm install
 ```
 
-2. Set up Google Sheets integration:
-   - Copy `.env.local.example` to `.env.local`
-   - Follow the instructions in `google-apps-script.js` to set up Google Apps Script
-   - Add your Google Apps Script URL to `.env.local`
+### Run Development Server
 
-3. Run the development server:
 ```bash
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-## Google Sheets Integration
+### Build for Production
 
-The form submissions are sent to Google Sheets via Google Apps Script. To set this up:
+```bash
+npm run build
+npm start
+```
 
-1. Create a new Google Apps Script project at [script.google.com](https://script.google.com)
-2. Paste the code from `google-apps-script.js` into the script editor
-3. Deploy as a web app with the following settings:
-   - Execute as: Me
-   - Who has access: Anyone
-4. Copy the web app URL and add it to your `.env.local` file as `GOOGLE_SCRIPT_URL`
-5. Create or link a Google Sheet to store the form submissions
+## Project Structure
 
-## Form Data Structure
+```
+clarence-2/
+├── app/
+│   ├── globals.css       # Global styles
+│   ├── layout.tsx        # Root layout with metadata
+│   └── page.tsx          # Main page
+├── components/
+│   ├── Header.tsx        # Navigation header
+│   ├── Hero.tsx          # Hero section
+│   ├── QueryBox.tsx      # Interactive search box
+│   ├── ValueProp.tsx     # Value proposition section
+│   ├── ChatSection.tsx   # Chat demo section
+│   ├── ChatBubble.tsx    # Chat message component
+│   ├── HumanHelp.tsx     # Human support section
+│   ├── Memory.tsx        # Policy tracking section
+│   ├── Privacy.tsx       # Security section
+│   ├── CTA.tsx           # Call-to-action section
+│   ├── Footer.tsx        # Footer
+│   └── Icons.tsx         # SVG icon components
+├── public/               # Static assets (add logos here)
+├── package.json
+├── tailwind.config.ts
+├── tsconfig.json
+└── next.config.js
+```
 
-The form collects the following data:
-- Timestamp
-- Agency Name
-- Contact Name
-- Annual Revenue (dropdown options)
-- Region (dropdown options)
-- Email Address
+## Customization
 
-## Scripts
+### Colors
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
+The main brand colors are defined in `tailwind.config.ts`:
+- Primary: `#0057d9` (blue)
+- Secondary: `#00bcd4` (cyan)
 
-## Tech Stack
+### Content
 
-- Next.js 15.3.5
-- React 18
-- TypeScript
-- Tailwind CSS
-- Google Apps Script (for form submissions)
+Edit the component files in the `components/` directory to update content.
 
-## Performance Optimizations
+### Images
 
-- Mobile-first responsive design
-- Optimized images and assets
-- Minimal JavaScript bundle
-- Fast loading times
-- Smooth scrolling navigation
+Add your logo and carrier logos to the `public/` directory:
+- `/clarence-logo.png` - Main logo
+- `/carriers/` - Insurance carrier logos
+- `/icons/` - Icon assets
 
-## Deployment
+## Technologies
 
-Recommended hosting platforms:
-- Vercel (recommended)
-- Netlify
-- Any Node.js hosting provider
+- **Next.js 14** - React framework
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Styling
+- **React 18** - UI library
 
-The project is configured for easy deployment on Vercel with automatic builds and optimizations.
+## License
+
+© 2025 Clarence Insurance Services
+
